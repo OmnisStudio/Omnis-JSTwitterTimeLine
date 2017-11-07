@@ -1,0 +1,60 @@
+{
+	"ident": 1008,
+	"order": 6,
+	"objtype": "kComponent",
+	"componentlib": "jsLabel",
+	"componentctrl": "Label Object",
+	"properties": {
+		"alpha": 255,
+		"backalpha": 255,
+		"backcolor": "RGB(255,255,255)",
+		"contextmenu": "",
+		"cssclassname": "",
+		"dataname": "",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disabledefaultcontextmenu": false,
+		"disablesystemfocus": true,
+		"dropmode": "kAcceptNone",
+		"enabled": false,
+		"events": "",
+		"fieldstyle": "",
+		"font": 1,
+		"fontsize": 10,
+		"fontstyle": "kPlain",
+		"objlink": 0,
+		"preventlayoutanimation": false,
+		"text": "Twitter Username",
+		"textcolor": "kColorDefault",
+		"textishtml": false,
+		"tooltip": "",
+		"userinfo": "",
+		"vertcentertext": true,
+		"visible": true
+	},
+	"layout": {
+		"310": {
+			"left": 5,
+			"top": 120,
+			"width": 129,
+			"height": 25,
+			"align": "kLeftJst",
+			"dragborder": false,
+			"edgefloat": "kEFnone",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		},
+		"600": {
+			"left": 10,
+			"top": 120,
+			"width": 145,
+			"height": 20,
+			"align": "kLeftJst",
+			"dragborder": false,
+			"edgefloat": "kEFnone",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		}
+	}
+}

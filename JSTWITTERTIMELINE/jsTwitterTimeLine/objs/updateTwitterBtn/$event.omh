@@ -1,0 +1,14 @@
+On evClick
+	Do iTweetNumList.$loadcols()
+	
+	Begin text block
+	Calculate lTwitterUser as con("https://twitter.com/",iTwitterName)
+	Text: {<div style="%v"><a class="twitter-timeline" data-tweet-limit=[iTweetNum] href=[lTwitterUser]>}
+	Text: {Tweets by [lTwitterUser] </a></div>}
+	End text block
+	
+	Get text block lTextStr
+	Do $cinst.$objs.twitterUserTimeLine.$html.$assign(lTextStr)
+	
+	;  update the twitter feed
+	Do $cinst.$loadTwitterWidgets()

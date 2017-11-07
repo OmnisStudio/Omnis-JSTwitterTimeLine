@@ -1,0 +1,11 @@
+JavaScript: if (typeof twttr === "undefined")
+Do $cinst.$loadTwitterScripts()
+
+JavaScript: function loadTwitterWidgets() {
+JavaScript: if (typeof twttr === "undefined")     ;; Wait until the twitter script has loaded and twttr is defined
+JavaScript: setTimeout(loadTwitterWidgets, 100);
+JavaScript: else
+JavaScript: twttr.widgets.load();
+JavaScript: }
+
+JavaScript: loadTwitterWidgets();

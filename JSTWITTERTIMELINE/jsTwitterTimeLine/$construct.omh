@@ -1,0 +1,6 @@
+Do iTweetNumList.$define(iTweetNum)
+For lNum from 1 to 10 step 1
+	Do iTweetNumList.$add(lNum)
+End For
+
+Do iTweetNumList.$line.$assign(5)
