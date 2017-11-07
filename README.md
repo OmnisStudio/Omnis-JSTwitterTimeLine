@@ -1,5 +1,6 @@
 # Omnis-JSTwitterTimeLine
-Library uses the JS html object to embed a twitter timeline.  The app can be viewed here http://tinyurl.com/jsgallery8, click on 'Twitter Time Line' in the list.
+Library uses the JS html object to embed a twitter timeline in your form.  
+The app can be viewed here http://tinyurl.com/jsgallery8, click on 'Twitter Time Line' in the list.
 
 Requires Omnis Studio 8.1.2 or above
 
